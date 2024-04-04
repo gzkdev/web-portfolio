@@ -7,10 +7,10 @@ export default function Home() {
           <span>Frontend Engineer</span>
         </header>
         <p className="text-xl">
-          I'm a front-end engineer from Nigeria. I build rich web experiences
-          with modern web technologies like HTML, CSS, JavaScript, and React.
-          I'm passionate about building scalable and accessible front-end web
-          and mobile applications.
+          I&apos;m a front-end engineer from Nigeria. I build rich web
+          experiences with modern web technologies like HTML, CSS, JavaScript,
+          and React. I&apos;m passionate about building scalable and accessible
+          front-end web and mobile applications.
         </p>
       </section>
 
