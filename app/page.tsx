@@ -1,37 +1,42 @@
+import { Projects } from "@/data/projects";
+
 export default function Home() {
   return (
-    <div className="space-y-6 py-10 max-w-screen-sm mx-auto">
-      <section className="py-10 px-6 space-y-4">
+    <div className="space-y-10 py-24 max-w-screen-sm mx-auto">
+      <section className="px-6 space-y-10">
         <header>
-          <h1 className="font-semibold">Godswill Ezihe</h1>
+          <h1>Godswill Ezihe</h1>
           <span>Frontend Engineer</span>
         </header>
-        <p className="text-xl text-balance">
-          I&apos;m a front-end engineer ✨ from Nigeria. I build 🏗️ (and
-          sometimes, design 🎨) rich web experiences with modern web
-          technologies like HTML, CSS, JavaScript, and React. I&apos;m
-          passionate about building scalable and accessible front-end web and
-          mobile applications 🌐.
+        <p>
+          I build scalable, accessible and performant web applications that
+          people love to interact with. Although I`m not a professional
+          designer, sometimes you will find me tinkering on Figma. My love for
+          Front-end engineering lies in learning and building applications
+          people will actually love to use.
         </p>
       </section>
 
-      <section className="py-10 px-6 space-y-4">
-        <header className="font-semibold">Projects</header>
-        <ul className="flex flex-col gap-4">
-          {[1, 2, 3, 4].map((num) => (
-            <li key={num}>
-              <a href="#" className="inline-flex flex-col gap-1 border p-2">
-                <span>Octomigo</span>
-                <span>
-                  Code and documentation copyright 2011-2018 the authors. Code
-                  released under the MIT License.
-                </span>
+      <section className="py-10 px-6 space-y-10">
+        <h2>Projects</h2>
+        <ul className="flex flex-col gap-10">
+          {Projects.map((project) => (
+            <li key={project.id}>
+              <a
+                href="#"
+                className="inline-flex flex-col gap-1 p-2 -m-2 hover:bg-zinc-800 rounded-md transition"
+              >
+                <h3>{project.name}</h3>
+                <span className="text-sm">{project.description}</span>
               </a>
             </li>
           ))}
         </ul>
         <div className="mx-auto w-max p-4">
-          <a href="#" className="border py-2 px-4 rounded">
+          <a
+            href="#"
+            className="py-4 px-8 rounded-md bg-zinc-700 text-zinc-100 text-sm"
+          >
             See More
           </a>
         </div>
