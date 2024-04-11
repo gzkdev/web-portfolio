@@ -1,12 +1,13 @@
+import { blogPosts } from "@/data/blog";
 import { Projects } from "@/data/projects";
 
 export default function Home() {
   return (
-    <div className="space-y-10 py-24 max-w-screen-sm mx-auto">
+    <div className="space-y-24 py-24 pb-10 max-w-screen-sm mx-auto">
       <section className="px-6 space-y-10">
         <header>
-          <h1>Godswill Ezihe</h1>
-          <span>Frontend Engineer</span>
+          <h1 className="text-lg sm:text-2xl">Godswill Ezihe</h1>
+          <span className="sm:text-md">Frontend Engineer</span>
         </header>
         <p>
           I build scalable, accessible and performant web applications that
@@ -17,14 +18,14 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="py-10 px-6 space-y-10">
+      <section className="px-6 space-y-10">
         <h2>Projects</h2>
         <ul className="flex flex-col gap-10">
           {Projects.map((project) => (
             <li key={project.id}>
               <a
-                href="#"
-                className="inline-flex flex-col gap-1 p-2 -m-2 hover:bg-zinc-800 rounded-md transition"
+                href={project.url}
+                className="inline-flex flex-col gap-1 p-2 -m-2 hover:bg-zinc-800/80 rounded-lg transition"
               >
                 <h3>{project.name}</h3>
                 <span className="text-sm">{project.description}</span>
@@ -32,56 +33,54 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        <div className="mx-auto w-max p-4">
+        <div className="mx-auto w-max mt-4 text-zinc-100 text-sm">
           <a
             href="#"
-            className="py-4 px-8 rounded-md bg-zinc-700 text-zinc-100 text-sm"
+            className="py-3 px-6 rounded-lg transition hover:bg-zinc-800/80"
           >
             See More
           </a>
         </div>
       </section>
 
-      <section className="py-10 px-6 space-y-4">
-        <header className="font-semibold">Blog</header>
-        <ul className="space-y-4">
-          {[1, 2, 3, 4].map((n) => (
-            <li key={n}>
-              <a href="#" className="border inline-block p-2">
-                What is a Sybil attack in distributed systems
+      <section className="px-6 space-y-10">
+        <h2>Blog</h2>
+        <ul className="flex flex-col gap-10">
+          {blogPosts.map((post) => (
+            <li key={post.id}>
+              <a
+                href={post.url}
+                className="inline-flex w-full flex-col gap-1 p-2 -m-2 hover:bg-zinc-800/80 hover:text-zinc-100 rounded-lg transition"
+              >
+                {post.title}
               </a>
             </li>
           ))}
         </ul>
-        <div className="mx-auto w-max p-4">
-          <a href="#" className="border py-2 px-4 rounded">
+        <div className="mx-auto w-max pt-4 text-zinc-100 text-sm">
+          <a
+            href="#"
+            className="py-3 px-6 rounded-lg transition hover:bg-zinc-800/80"
+          >
             See More
           </a>
         </div>
       </section>
 
-      <footer className="py-10 px-6">
+      <footer className="px-6 text-sm">
         <div className="text-center space-y-6">
           <ul className="flex items-center justify-center gap-4 flex-wrap">
             <li>
-              <a href="#" className="border p-1">
-                Twitter
-              </a>
+              <a href="#">Twitter</a>
             </li>
             <li>
-              <a href="#" className="border p-1">
-                Github
-              </a>
+              <a href="#">Github</a>
             </li>
             <li>
-              <a href="#" className="border p-1">
-                LinkedIn
-              </a>
+              <a href="#">LinkedIn</a>
             </li>
             <li>
-              <a href="#" className="border p-1">
-                Codepen
-              </a>
+              <a href="#">Codepen</a>
             </li>
           </ul>
           <div>
