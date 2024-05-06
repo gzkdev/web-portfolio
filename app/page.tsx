@@ -1,5 +1,4 @@
-import { blogPosts } from "@/data/blog";
-import { Projects } from "@/data/projects";
+import { blogPosts, projects } from "@/constants";
 
 export default function Home() {
   return (
@@ -21,7 +20,7 @@ export default function Home() {
       <section className="px-6 space-y-10">
         <h2>Projects</h2>
         <ul className="flex flex-col gap-10">
-          {Projects.map((project) => (
+          {projects.map((project) => (
             <li key={project.id}>
               <a
                 href={project.url}
