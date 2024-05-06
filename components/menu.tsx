@@ -35,10 +35,7 @@ export function Menu() {
             >
               {navLinks.map(({ href, id, title }) => (
                 <li key={id}>
-                  <Link
-                    href={href}
-                    className="inline-block my-2 relative hover:text-zinc-100 after:content-[''] after:w-full after:h-[1px] after:bg-current after:absolute after:-bottom-0.5 after:left-0 after:scale-x-0 hover:after:scale-x-100 after:transition after:origin-left"
-                  >
+                  <Link href={href} className="navlink inline-block my-2">
                     {title}
                   </Link>
                 </li>
@@ -46,7 +43,7 @@ export function Menu() {
               <li className="outline-none border border-zinc-700 rounded-full bg-zinc-700/50 text-zinc-100 mt-2">
                 <Link
                   href="mailto:ezihegodswill01@gmail.com"
-                  className="block py-3 px-6"
+                  className="block py-2 px-6"
                 >
                   Get in touch
                 </Link>
