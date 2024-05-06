@@ -13,3 +13,9 @@
     @apply text-zinc-50;
   }
 }
+
+@layer components {
+  .navlink {
+    @apply relative hover:text-zinc-100 after:content-[''] after:w-full after:h-[1px] after:bg-current after:absolute after:-bottom-0.5 after:left-0 after:scale-x-0 hover:after:scale-x-100 after:transition after:origin-left;
+  }
+}
