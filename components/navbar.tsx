@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Menu } from "./menu";
 
 const NavLinks = [
   {
@@ -25,10 +26,10 @@ const NavLinks = [
 
 export function Navbar() {
   return (
-    <nav>
-      <div className="max-w-screen-lg mx-auto flex items-center justify-between px-6 py-20">
-        <Link href="/" className="font-semibold hover:text-zinc-100 transition">
-          Ezihe Godswill
+    <nav className="sticky top-0 z-50">
+      <div className="max-w-screen-lg mx-auto flex items-center justify-between p-6">
+        <Link href="/" className="hover:text-zinc-100 transition">
+          Godswill Ezihe
         </Link>
 
         <ul className="hidden sm:flex sm:items-center sm:gap-6 sm:text-sm">
@@ -39,7 +40,7 @@ export function Navbar() {
           ))}
         </ul>
 
-        <button className="size-8 border rounded-full sm:hidden"></button>
+        <Menu />
       </div>
     </nav>
   );
