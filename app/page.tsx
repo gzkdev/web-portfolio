@@ -33,10 +33,10 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        <div className="mx-auto w-max mt-4 text-zinc-100 text-sm">
+        <div className="mx-auto w-max pt-4 text-sm">
           <a
             href="#"
-            className="py-3 px-6 rounded-lg transition hover:bg-zinc-800/80"
+            className="py-3 px-6 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100  transition"
           >
             See More
           </a>
@@ -57,10 +57,10 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        <div className="mx-auto w-max pt-4 text-zinc-100 text-sm">
+        <div className="mx-auto w-max pt-4 text-sm">
           <a
-            href="#"
-            className="py-3 px-6 rounded-lg transition hover:bg-zinc-800/80"
+            href="/"
+            className="py-3 px-6 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100  transition"
           >
             See More
           </a>
