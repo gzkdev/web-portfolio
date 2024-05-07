@@ -7,6 +7,10 @@
     @apply bg-zinc-900 text-zinc-400 antialiased;
   }
 
+  body {
+    @apply selection:text-zinc-900 selection:bg-zinc-300;
+  }
+
   h1,
   h2,
   h3 {
