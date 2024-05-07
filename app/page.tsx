@@ -25,7 +25,7 @@ export default function Home() {
             <li key={project.id}>
               <a
                 href={project.url}
-                className="inline-flex flex-col gap-1 p-2 -m-2 hover:bg-zinc-800/80 rounded-lg transition"
+                className="block flex-col gap-1 p-3 -m-3 border border-transparent hover:bg-zinc-800/50 hover:border-zinc-800 rounded-xl transition"
               >
                 <h3>{project.name}</h3>
                 <span className="text-sm">{project.description}</span>
@@ -50,7 +50,7 @@ export default function Home() {
             <li key={post.id}>
               <a
                 href={post.url}
-                className="inline-flex w-full flex-col gap-1 p-2 -m-2 hover:bg-zinc-800/80 hover:text-zinc-100 rounded-lg transition"
+                className="block flex-col gap-1 p-3 -m-3 border border-transparent hover:bg-zinc-800/50 hover:text-zinc-100 hover:border-zinc-800 rounded-xl transition"
               >
                 {post.title}
               </a>
