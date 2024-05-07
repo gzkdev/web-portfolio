@@ -1,6 +1,5 @@
 import { Footer } from "@/components/footer";
 import { blogPosts, projects } from "@/constants";
-import { FaXTwitter, FaGithub, FaLinkedin, FaCodepen } from "react-icons/fa6";
 
 export default function Home() {
   return (
