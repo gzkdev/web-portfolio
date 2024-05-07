@@ -69,7 +69,7 @@ export default function Home() {
 
       <footer className="px-6">
         <div className="text-center space-y-6">
-          <ul className="flex items-center justify-center gap-4 flex-wrap text-lg">
+          <ul className="flex items-center justify-center gap-4 flex-wrap text-2xl">
             <li>
               <a href="#" aria-label="Twitter" title="Twitter">
                 <FaXTwitter />
@@ -91,7 +91,7 @@ export default function Home() {
               </a>
             </li>
           </ul>
-          <div>
+          <div className="text-sm">
             <span className="align-middle">&copy;</span> Godswill Ezihe{" "}
             {new Date().getFullYear()}
           </div>
