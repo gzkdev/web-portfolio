@@ -18,7 +18,7 @@ export function Navbar() {
               </Link>
             </li>
           ))}
-          <li className="outline-none border border-zinc-700 rounded-full bg-zinc-700/50 text-zinc-100">
+          <li className="outline-none border border-zinc-700 rounded-full bg-zinc-700/50 text-zinc-100 hover:bg-zinc-600/50 hover:border-zinc-600">
             <Link
               href="mailto:ezihegodswill01@gmail.com"
               className="block py-2 px-6"
