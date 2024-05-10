@@ -18,9 +18,7 @@ export function Menu() {
           whileTap={{ scale: 0.9 }}
           aria-label="toggle menu"
           className="px-4 py-2 text-sm rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100 sm:hidden outline-none"
-        >
-          Menu
-        </motion.button>
+        ></motion.button>
       </DropdownMenu.Trigger>
 
       <DropdownMenu.Portal>
