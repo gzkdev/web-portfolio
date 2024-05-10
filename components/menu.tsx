@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { navLinks } from "@/constants";
 import Link from "next/link";
+import { PiDotsThree } from "react-icons/pi";
 
 const motionMenuVariant = {
   initial: { opacity: 0, scale: 0.9 },
@@ -17,8 +18,10 @@ export function Menu() {
         <motion.button
           whileTap={{ scale: 0.9 }}
           aria-label="toggle menu"
-          className="px-4 py-2 text-sm rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100 sm:hidden outline-none"
-        ></motion.button>
+          className="size-8 text-sm inline-flex items-center justify-center rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100 sm:hidden outline-none"
+        >
+          <PiDotsThree />
+        </motion.button>
       </DropdownMenu.Trigger>
 
       <DropdownMenu.Portal>
