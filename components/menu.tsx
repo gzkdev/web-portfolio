@@ -26,31 +26,28 @@ export function Menu() {
 
       <DropdownMenu.Portal>
         <DropdownMenu.Content sideOffset={4}>
-          <AnimatePresence>
-            <motion.ul
-              initial="initial"
-              animate="animate"
-              exit="initial"
-              variants={motionMenuVariant}
-              className="p-2 bg-zinc-800 border border-zinc-700 rounded-3xl sm:hidden mr-6 text-sm text-center shadow-xl"
-            >
-              {navLinks.map(({ href, id, title }) => (
-                <li key={id}>
-                  <Link href={href} className="navlink inline-block my-2">
-                    {title}
-                  </Link>
-                </li>
-              ))}
-              <li className="outline-none border border-zinc-700 rounded-full bg-zinc-700/50 text-zinc-100 mt-2 hover:bg-zinc-600/50 hover:border-zinc-600">
-                <Link
-                  href="mailto:ezihegodswill01@gmail.com"
-                  className="block py-2 px-10"
-                >
-                  Get in touch
+          <motion.ul
+            initial="initial"
+            animate="animate"
+            variants={motionMenuVariant}
+            className="p-2 bg-zinc-800 border border-zinc-700 rounded-3xl sm:hidden mr-6 text-sm text-center shadow-xl"
+          >
+            {navLinks.map(({ href, id, title }) => (
+              <li key={id}>
+                <Link href={href} className="navlink inline-block my-2">
+                  {title}
                 </Link>
               </li>
-            </motion.ul>
-          </AnimatePresence>
+            ))}
+            <li className="outline-none border border-zinc-700 rounded-full bg-zinc-700/50 text-zinc-100 mt-2 hover:bg-zinc-600/50 hover:border-zinc-600">
+              <Link
+                href="mailto:ezihegodswill01@gmail.com"
+                className="block py-2 px-10"
+              >
+                Get in touch
+              </Link>
+            </li>
+          </motion.ul>
         </DropdownMenu.Content>
       </DropdownMenu.Portal>
     </DropdownMenu.Root>
