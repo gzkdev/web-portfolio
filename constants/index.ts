@@ -63,37 +63,42 @@ export const projects = [
 export const blogPosts = [
   {
     id: "0",
-    title: "A primer to Algorithms",
-    url: "/",
+    title: "How to Build a Web3 Application with Connectkit and NextJS",
+    url: "https://differ.blog/p/how-to-build-a-web3-application-with-connectkit-and-nextjs-df5e18",
   },
   {
     id: "1",
-    title: "Introduction to Markdown for the impatient",
-    url: "/",
+    title: "A primer to Algorithms",
+    url: "https://tealfeed.com/primer-algorithms-qkrnt",
   },
   {
     id: "2",
-    title: "Building with Connectkit",
-    url: "/",
+    title: "Markdown for Beginners",
+    url: "https://gzkdev.hashnode.dev/markdown-for-beginners",
   },
-  {
-    id: "3",
-    title: "Adaptive user interface in crypto apps",
-    url: "/",
-  },
-  {
-    id: "4",
-    title: "Building the switch chains feature",
-    url: "/",
-  },
+  // {
+  //   id: "3",
+  //   title: "Adaptive user interface in crypto apps",
+  //   url: "/",
+  // },
+  // {
+  //   id: "4",
+  //   title: "Building the switch chains feature",
+  //   url: "/",
+  // },
   {
     id: "5",
     title: "Wtf is a Sybil Attack",
-    url: "/",
+    url: "https://gzkdev.hashnode.dev/wtf-is-a-sybil-attack",
   },
   {
     id: "6",
-    title: "A brief Introduction CAP theorem",
-    url: "/",
+    title: "Demystifying the CAP Theorem - A Beginner's Guide",
+    url: "https://gzkdev.hashnode.dev/demystifying-the-cap-theorem-a-beginners-guide",
+  },
+  {
+    id: "7",
+    title: "How to crate the Binance logo with CSS #CSSArt",
+    url: "https://gzkdev.hashnode.dev/how-to-create-the-binance-logo-with-css",
   },
 ];
