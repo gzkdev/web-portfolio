@@ -20,7 +20,7 @@ export function Menu() {
           aria-label="toggle menu"
           className="size-8 text-sm inline-flex items-center justify-center rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100 sm:hidden outline-none"
         >
-          <PiDotsThree />
+          <PiDotsThree size={20} />
         </motion.button>
       </DropdownMenu.Trigger>
 
@@ -32,7 +32,7 @@ export function Menu() {
               animate="animate"
               exit="initial"
               variants={motionMenuVariant}
-              className="p-6 bg-zinc-800 border border-zinc-700 rounded-xl sm:hidden mr-6 text-sm text-center shadow-xl"
+              className="p-2 bg-zinc-800 border border-zinc-700 rounded-3xl sm:hidden mr-6 text-sm text-center shadow-xl"
             >
               {navLinks.map(({ href, id, title }) => (
                 <li key={id}>
