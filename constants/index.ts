@@ -74,7 +74,7 @@ export const blogPosts = [
   {
     id: "2",
     title: "Markdown for Beginners",
-    url: "https://gzkdev.hashnode.dev/markdown-for-beginners",
+    url: "https://blackbyte.hashnode.dev/markdown-for-beginners",
   },
   // {
   //   id: "3",
@@ -89,16 +89,16 @@ export const blogPosts = [
   {
     id: "5",
     title: "Wtf is a Sybil Attack",
-    url: "https://gzkdev.hashnode.dev/wtf-is-a-sybil-attack",
+    url: "https://blackbyte.hashnode.dev/wtf-is-a-sybil-attack",
   },
   {
     id: "6",
     title: "Demystifying the CAP Theorem - A Beginner's Guide",
-    url: "https://gzkdev.hashnode.dev/demystifying-the-cap-theorem-a-beginners-guide",
+    url: "https://blackbyte.hashnode.dev/demystifying-the-cap-theorem-a-beginners-guide",
   },
   {
     id: "7",
     title: "How to crate the Binance logo with CSS #CSSArt",
-    url: "https://gzkdev.hashnode.dev/how-to-create-the-binance-logo-with-css",
+    url: "https://blackbyte.hashnode.dev/how-to-create-the-binance-logo-with-css",
   },
 ];
