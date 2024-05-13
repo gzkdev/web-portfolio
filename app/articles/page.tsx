@@ -17,7 +17,7 @@ export default function Articles() {
             <li key={post.id}>
               <a
                 href={post.url}
-                className="block flex-col gap-1 p-2 -m-2 border border-transparent hover:bg-zinc-800/50 hover:text-zinc-100 hover:border-zinc-800 rounded-xl transition"
+                className="block flex-col gap-1 p-3 -m-3 border border-transparent hover:bg-zinc-800/50 hover:text-zinc-100 hover:border-zinc-800 rounded-xl transition"
               >
                 {post.title}
               </a>
