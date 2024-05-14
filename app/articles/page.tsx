@@ -24,8 +24,6 @@ export default function Articles() {
           ))}
         </ul>
       </section>
-
-      <Footer />
     </div>
   );
 }
