@@ -38,7 +38,7 @@ export default function Home() {
             href="#"
             className="py-3 px-6 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100  transition"
           >
-            See More
+            View All
           </a>
         </div>
       </section>
@@ -59,10 +59,10 @@ export default function Home() {
         </ul>
         <div className="mx-auto w-max pt-4 text-sm">
           <a
-            href="/"
+            href="/articles"
             className="py-3 px-6 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-800/50 hover:text-zinc-100  transition"
           >
-            See More
+            View All
           </a>
         </div>
       </section>
