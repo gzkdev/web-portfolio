@@ -6,7 +6,7 @@ export function Footer() {
       <div className="text-center space-y-6">
         <ul className="flex items-center justify-center gap-4 flex-wrap text-xl">
           {socialMediaLinks.map((medium) => (
-            <li key={medium.name}>
+            <li key={medium.name} className="hover:text-white transition">
               <a href={medium.url} aria-label="Twitter" title="Twitter">
                 {<medium.icon />}
               </a>
