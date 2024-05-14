@@ -1,3 +1,28 @@
+import { FaXTwitter, FaGithub, FaLinkedin, FaCodepen } from "react-icons/fa6";
+
+export const socialMediaLinks = [
+  {
+    name: "Twitter",
+    icon: FaXTwitter,
+    url: "https://x.com/gzkdev",
+  },
+  {
+    name: "GitHub",
+    icon: FaGithub,
+    url: "https://github.com/gzkdev",
+  },
+  {
+    name: "LinkedIn",
+    icon: FaLinkedin,
+    url: "https://linkedin.com/in/godswill-ezihe",
+  },
+  {
+    name: "Codepen",
+    icon: FaCodepen,
+    url: "https://codepen.io/gzkdev",
+  },
+];
+
 export const navLinks = [
   {
     id: "0",

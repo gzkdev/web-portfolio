@@ -1,27 +1,4 @@
-import { FaXTwitter, FaGithub, FaLinkedin, FaCodepen } from "react-icons/fa6";
-
-const socialMediaLinks = [
-  {
-    name: "Twitter",
-    icon: <FaXTwitter />,
-    url: "https://x.com/gzkdev",
-  },
-  {
-    name: "GitHub",
-    icon: <FaGithub />,
-    url: "https://github.com/gzkdev",
-  },
-  {
-    name: "LinkedIn",
-    icon: <FaLinkedin />,
-    url: "https://linkedin.com/in/godswill-ezihe",
-  },
-  {
-    name: "Codepen",
-    icon: <FaCodepen />,
-    url: "https://codepen.io/gzkdev",
-  },
-];
+import { socialMediaLinks } from "@/constants";
 
 export function Footer() {
   return (
@@ -31,7 +8,7 @@ export function Footer() {
           {socialMediaLinks.map((medium) => (
             <li key={medium.name}>
               <a href={medium.url} aria-label="Twitter" title="Twitter">
-                {medium.icon}
+                {<medium.icon />}
               </a>
             </li>
           ))}
