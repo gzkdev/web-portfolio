@@ -1,13 +1,13 @@
 export const navLinks = [
   {
     id: "0",
-    title: "Projects",
-    href: "/projects",
+    title: "About",
+    href: "/about",
   },
   {
     id: "1",
-    title: "Demos",
-    href: "/demos",
+    title: "Projects",
+    href: "/projects",
   },
   {
     id: "2",
