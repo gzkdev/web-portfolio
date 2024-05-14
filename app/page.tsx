@@ -1,4 +1,3 @@
-import { Footer } from "@/components/footer";
 import { blogPosts, projects } from "@/constants";
 
 export default function Home() {
