@@ -51,7 +51,7 @@ export const projects = [
     id: "5",
     name: "Mortar",
     description:
-      "A light weight blueprint for building decentralized apps with NextJS",
+      "A light weight blueprint for building decentralized apps with NextJS  and Connectkit",
     type: "Starter kit",
     tags: ["NextJS", "React", "Web3"],
     liveUrl: "https://mortar-dusky.vercel.app",
