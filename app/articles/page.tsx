@@ -1,6 +1,5 @@
 import { Footer } from "@/components/footer";
 import { blogPosts } from "@/constants";
-import React from "react";
 
 export default function Articles() {
   return (
