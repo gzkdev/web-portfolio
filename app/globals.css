@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply selection:text-zinc-900 selection:bg-zinc-300 flex flex-col;
+    @apply selection:text-zinc-900 selection:bg-zinc-300 flex flex-col min-h-screen;
   }
 
   h1,
