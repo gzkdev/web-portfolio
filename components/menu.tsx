@@ -30,11 +30,11 @@ export function Menu() {
             initial="initial"
             animate="animate"
             variants={motionMenuVariant}
-            className="p-2 bg-zinc-800 border border-zinc-700 rounded-3xl sm:hidden mr-6 text-sm text-center shadow-xl"
+            className="p-2 bg-zinc-800 border border-zinc-700 rounded-3xl sm:hidden mr-6 text-sm shadow-xl"
           >
             {navLinks.map(({ href, id, title }) => (
               <li key={id}>
-                <Link href={href} className="navlink inline-block my-2">
+                <Link href={href} className="navlink inline-block m-2">
                   {title}
                 </Link>
               </li>
