@@ -10,6 +10,34 @@ export default function About() {
         engineering lies in learning and building applications people will
         actually love to use.
       </p>
+      <p>
+        I build scalable, accessible and performant web applications that people
+        love to interact with. Although I`m not a professional designer,
+        sometimes you will find me tinkering on Figma. My love for Front-end
+        engineering lies in learning and building applications people will
+        actually love to use.
+      </p>
+      <p>
+        I build scalable, accessible and performant web applications that people
+        love to interact with. Although I`m not a professional designer,
+        sometimes you will find me tinkering on Figma. My love for Front-end
+        engineering lies in learning and building applications people will
+        actually love to use.
+      </p>
+      <p>
+        I build scalable, accessible and performant web applications that people
+        love to interact with. Although I`m not a professional designer,
+        sometimes you will find me tinkering on Figma. My love for Front-end
+        engineering lies in learning and building applications people will
+        actually love to use.
+      </p>
+      <p>
+        I build scalable, accessible and performant web applications that people
+        love to interact with. Although I`m not a professional designer,
+        sometimes you will find me tinkering on Figma. My love for Front-end
+        engineering lies in learning and building applications people will
+        actually love to use.
+      </p>
     </div>
   );
 }
