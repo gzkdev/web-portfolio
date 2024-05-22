@@ -42,7 +42,7 @@ export function Menu() {
             <li className="outline-none border border-zinc-700 rounded-full bg-zinc-700/50 text-zinc-100 mt-2 hover:bg-zinc-600/50 hover:border-zinc-600">
               <Link
                 href="mailto:ezihegodswill01@gmail.com"
-                className="block py-2 px-10"
+                className="block py-2 px-8"
               >
                 Get in touch
               </Link>
