@@ -12,7 +12,7 @@ export default function BlogSection() {
 
 export function BlogList() {
   return (
-    <div className="space-y-6">
+    <div className="space-y-4">
       {POSTS_METADATA.map(({ subtitle, title, url }) => {
         return (
           <Link

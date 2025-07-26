@@ -3,16 +3,18 @@ import { PROJECTS } from "@/constants/projects";
 export default function ProjectsSection() {
   return (
     <div className="space-y-12">
-      <h2 className="font-medium">Projects</h2>
+      <h2 className="font-medium leading-none tracking-tight">Projects</h2>
 
       <div className="grid gap-10">
         {PROJECTS.map(({ description, github_url, live_url, name, stack }) => {
           return (
             <div key={name} className="space-y-2 group">
               <div className="flex items-center gap-2">
-                <h4 className="font-medium">{name}</h4>
+                <h4 className="font-medium leading-none tracking-tight">
+                  {name}
+                </h4>
                 <a
-                  className="ml-auto text-sm text-foreground/60 focus-visible:text-foreground hover:underline focus-visible:underline group-hover:text-foreground"
+                  className="ml-auto text-sm leading-none text-foreground/60 focus-visible:text-foreground hover:underline focus-visible:underline group-hover:text-foreground"
                   href={github_url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -20,7 +22,7 @@ export default function ProjectsSection() {
                   GitHub
                 </a>
                 <a
-                  className="text-sm text-foreground/60 focus-visible:text-foreground hover:underline focus-visible:underline group-hover:text-foreground"
+                  className="text-sm leading-none text-foreground/60 focus-visible:text-foreground hover:underline focus-visible:underline group-hover:text-foreground"
                   href={live_url}
                   target="_blank"
                   rel="noopener noreferrer"
