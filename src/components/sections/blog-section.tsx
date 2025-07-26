@@ -18,7 +18,7 @@ export function BlogList() {
           <Link
             key={title}
             href={url}
-            className="flex flex-col gap-1 hover:bg-foreground/5 p-2 -mx-2 rounded"
+            className="flex flex-col gap-1 hover:opacity-60 p-2 -mx-2 rounded"
           >
             <span className="font-medium">{title}</span>
             <span className="text-sm text-foreground/60">{subtitle}</span>
