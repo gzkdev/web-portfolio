@@ -21,7 +21,7 @@ export function BlogList() {
             className="flex flex-col gap-1 hover:opacity-60 p-2 -mx-2 rounded"
           >
             <span className="font-medium">{title}</span>
-            <span className="text-sm text-foreground/60">{subtitle}</span>
+            <span className=" text-foreground/60">{subtitle}</span>
           </Link>
         );
       })}
