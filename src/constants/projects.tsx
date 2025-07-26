@@ -12,7 +12,7 @@ export const PROJECTS = [
     name: "Boring Avatars Config",
     description:
       "A fun project to explore the different configurations for the custom Avatar package. Built with the aim of exploring possible config combinations",
-    stack: ["TypeScript", "React", "Next.js", "Motion"],
+    stack: ["TypeScript", "React", "Next.js"],
     github_url: "https://github.com/gzkdev/boring-avatars-config-app",
     live_url: "#",
   },
@@ -20,7 +20,7 @@ export const PROJECTS = [
     name: "Solana Wallet Connector",
     description:
       "Simple frontend application that implements smooth wallet authentication flow using the solana-wallet-adapter/react package",
-    stack: ["TypeScript", "React", "Next.js", "Motion", "Solana Wallet SDK"],
+    stack: ["TypeScript", "React", "Next.js", "Solana Wallet SDK"],
     github_url: "https://github.com/gzkdev/boring-avatars-config-app",
     live_url: "#",
   },

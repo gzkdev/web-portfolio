@@ -6,13 +6,13 @@ export default function BlogNavbar() {
     <div className="flex items-center justify-between -mt-20">
       <Link
         href="/"
-        className="size-9 flex items-center justify-center bg-foreground/5 rounded-full"
+        className="size-9 flex items-center justify-center bg-foreground/5 rounded-full text-foreground/60 hover:text-foreground focus-visible:text-foreground"
       >
         <span className="sr-only">Back</span>
         <CornerUpLeft size={16} />
       </Link>
 
-      <button className="size-9 flex items-center justify-center bg-foreground/5 rounded-full">
+      <button className="size-9 flex items-center justify-center bg-foreground/5 rounded-full text-foreground/60 hover:text-foreground focus-visible:text-foreground cursor-pointer">
         <span className="sr-only">Copy link</span>
         <LinkIcon size={16} />
       </button>
