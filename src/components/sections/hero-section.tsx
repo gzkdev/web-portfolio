@@ -32,11 +32,12 @@ const PROFILE_LINKS = [
 export default function HeroSection() {
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-medium">Hey, I'm Godswill</h1>
+      <h1 className="text-2xl font-medium">Hey, I&apos;m Godswill</h1>
       <p className="text-foreground/60">
-        I'm a design engineer & designer at OpenSea. I design and build products
-        that feel magical, yet simple and intuitive. I obsess over the smallest
-        details and I like to make people feel something through my work.
+        I&apos;m a design engineer & designer at OpenSea. I design and build
+        products that feel magical, yet simple and intuitive. I obsess over the
+        smallest details and I like to make people feel something through my
+        work.
       </p>
 
       <ul className="flex items-center gap-4 justify-start text-sm">
